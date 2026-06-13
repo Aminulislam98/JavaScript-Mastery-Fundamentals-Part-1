@@ -37,3 +37,12 @@ x--; // this is postfix decrement operator : x = x - 1
 // console.log(ageAminul > ageKhadijah);
 // <= less than or equal to
 // >= greater than or equal to
+
+//Operator Precedence
+// all math operator executed before comparison operator
+// grouping () operator has highest power in all of the operator
+//let averageAge = ageAminul + ageKhadijah / 2;  this will give unexpected result because multiplication execute first then subtraction so it will give unexpected result
+//console.log(averageAge);  23.5
+
+let averageAge = (ageAminul + ageKhadijah) / 2;
+//console.log(averageAge);  this is the right way to get excepted result : 12 , because () grouping has highest power and it execute first so first ageAminul + ageKhadijah wil subtraction then will divided with 2
