@@ -73,3 +73,20 @@ if (isOldEnough) {
   //   console.log(`${yearLeft} year left to start driving license 🪪`);
 }
 // if else statement is also called control structure
+
+// type conversion and coercion
+
+// type conversion
+// type of nan is number
+const inputYear = "1991";
+// console.log(Number(inputYear));
+
+// type coercion
+// console.log("23" - 34 - 9);
+// console.log("23" + 34 + 9);
+//type coercion mean: when we want to operate 2 values of different types , javaScript quietly convert one of the them type so it can go through;
+// example :
+let n = "1" + 1;
+n = n - 1;
+// console.log(n);
+// here is '1' is a string so when we operate this line javascript count as it is a string thats why it become '1' + 1 = 11
