@@ -33,7 +33,7 @@ x++; // this is postfix increment operator : x = x + 1
 x--; // this is postfix decrement operator : x = x - 1
 
 // comparison operator
-console.log(ageAminul < ageKhadijah);
-console.log(ageAminul > ageKhadijah);
+// console.log(ageAminul < ageKhadijah);
+// console.log(ageAminul > ageKhadijah);
 // <= less than or equal to
 // >= greater than or equal to
