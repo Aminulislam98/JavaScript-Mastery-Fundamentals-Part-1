@@ -61,4 +61,15 @@ const markBMI = markMass / (markHeightInMeter * markHeightInMeter);
 let firstName = "aminul";
 let age = 23;
 let job = "programmer";
-console.log("My name is " + firstName + " " + "I am " + age + "year old");
+// console.log("My name is " + firstName + " " + "I am " + age + "year old");
+
+// taking decision if else condition
+const sarahAge = 15;
+const isOldEnough = sarahAge >= 18;
+if (isOldEnough) {
+  console.log("Sarah can start driving license 🪪");
+} else {
+  const yearLeft = 18 - sarahAge;
+  console.log(`${yearLeft} year left to start driving license 🪪`);
+}
+// if else statement is also called control structure
