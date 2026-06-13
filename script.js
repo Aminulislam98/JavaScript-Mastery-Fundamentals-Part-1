@@ -67,9 +67,9 @@ let job = "programmer";
 const sarahAge = 15;
 const isOldEnough = sarahAge >= 18;
 if (isOldEnough) {
-  console.log("Sarah can start driving license 🪪");
+  //   console.log("Sarah can start driving license 🪪");
 } else {
   const yearLeft = 18 - sarahAge;
-  console.log(`${yearLeft} year left to start driving license 🪪`);
+  //   console.log(`${yearLeft} year left to start driving license 🪪`);
 }
 // if else statement is also called control structure
