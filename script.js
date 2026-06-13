@@ -46,3 +46,13 @@ x--; // this is postfix decrement operator : x = x - 1
 
 let averageAge = (ageAminul + ageKhadijah) / 2;
 //console.log(averageAge);  this is the right way to get excepted result : 12 , because () grouping has highest power and it execute first so first ageAminul + ageKhadijah wil subtraction then will divided with 2
+
+//JavaScript Fundamentals – Part 1 | Coding Challenge #1
+let johnMass = 92;
+let markMass = 78;
+let johnHeightInMeter = 1.69;
+let markHeightInMeter = 1.95;
+const johnBMI = johnMass / (johnHeightInMeter * johnHeightInMeter);
+const markBMI = markMass / (markHeightInMeter * markHeightInMeter);
+// console.log("this is John BMI:", johnBMI);
+// console.log("this is Mark BMI:", markBMI);
