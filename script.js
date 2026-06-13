@@ -90,3 +90,16 @@ let n = "1" + 1;
 n = n - 1;
 // console.log(n);
 // here is '1' is a string so when we operate this line javascript count as it is a string thats why it become '1' + 1 = 11
+
+// truthy and falsy value;
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("jonas"));
+// console.log(Boolean({}));
+
+let money = 100;
+if (money) {
+  console.log("Do not spend it all :)");
+} else {
+  console.log("You should get a job!");
+}
