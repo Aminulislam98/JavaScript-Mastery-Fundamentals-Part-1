@@ -19,3 +19,15 @@ let javaScriptIsFun = true;
 // var | var key word is old way to declare a variable
 // let | let is reassign able variable | this is mutate , mean it is changeable.
 // const | const is a immutable variable that can not be reassigned in future
+
+// Basic math operator
+const now = 2026;
+const ageAminul = now - 2003;
+const ageKhadijah = now - 2025;
+// = this a assignment operator
+let x = 12 + 21;
+x += 12; // this is addition assignment operator : x = + 12
+x -= 12; // this is subtraction assignment operator : x = - 12
+x *= 12; // this is multiplication assignment operator : x = * 12
+x++; // this is postfix increment operator : x = x + 1
+x--; // this is postfix decrement operator : x = x - 1
