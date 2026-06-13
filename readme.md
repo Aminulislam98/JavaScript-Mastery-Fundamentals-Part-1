@@ -1,1 +1,1 @@
-##JavaScript Mastery Fundamentals – Part 1
+## JavaScript Mastery Fundamentals – Part 1
