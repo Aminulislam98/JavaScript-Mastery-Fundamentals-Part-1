@@ -56,3 +56,9 @@ const johnBMI = johnMass / (johnHeightInMeter * johnHeightInMeter);
 const markBMI = markMass / (markHeightInMeter * markHeightInMeter);
 // console.log("this is John BMI:", johnBMI);
 // console.log("this is Mark BMI:", markBMI);
+
+// string and template literals
+let firstName = "aminul";
+let age = 23;
+let job = "programmer";
+console.log("My name is " + firstName + " " + "I am " + age + "year old");
