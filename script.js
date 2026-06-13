@@ -14,4 +14,8 @@ let language;
 // this is boolean  variable
 let isIsland = false;
 let javaScriptIsFun = true;
-console.log(javaScriptIsFun);
+
+// there are three different way to declare a variable
+// var | var key word is old way to declare a variable
+// let | let is reassign able variable | this is mutate , mean it is changeable.
+// const | const is a immutable variable that can not be reassigned in future
