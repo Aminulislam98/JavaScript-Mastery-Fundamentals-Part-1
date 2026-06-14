@@ -178,3 +178,10 @@ const hasGoodVision = true;
 // expression and statement
 // a value is expression like : 'aminul',  12, 3 + 4
 // statement is a code of line that perform action like if(2 > 4 ){ console.log('Right')}
+// The conditional (ternary) operator
+const age2 = 18;
+const drink =
+  age2 >= 18 ? "I like to drink wine 🍷" : "I like to drink Water 💧";
+// console.log(drink);
+// console.log(`I like to drink ${age2 >= 18 ? "Wine 🍷" : "Water 💧"}`);
+// I should use ternary operator when I need quick decision other wise if else statement is better for large condition
