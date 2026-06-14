@@ -99,7 +99,33 @@ n = n - 1;
 
 let money = 100;
 if (money) {
-  console.log("Do not spend it all :)");
+  // console.log("Do not spend it all :)");
 } else {
-  console.log("You should get a job!");
+  // console.log("You should get a job!");
 }
+
+// Equality operator == VS ===
+// const age1 = 18;
+// if (age1 === 18) {
+// console.log("You just become adult :)")
+// }
+// == loose equal
+// === strick equal
+
+// const favorite = Number(prompt("Wha's your favorite number ? "));
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// if (favorite === 23) {
+// console.log("Cool! 23 is an amazing number!");
+// } else if (favorite === 7) {
+// console.log("7 is also a cool number!");
+// } else if (favorite === 9) {
+// console.log("9 is a cool number!");
+// } else {
+// console.log("Number is not 23 or 7 or 9");
+// }
+
+// if (favorite !== 23) {
+// console.log("Why not 23 ?");
+// }
