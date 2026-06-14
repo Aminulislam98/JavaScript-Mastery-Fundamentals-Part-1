@@ -150,3 +150,27 @@ const hasGoodVision = true;
 // } else {
 //   console.log("Koalas win the trophy");
 // }
+
+// the switch statement
+const day = "thursday";
+switch (day) {
+  case "monday":
+    console.log("plan course structure !");
+    break;
+  case "tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Write code example!");
+    break;
+  case "friday":
+    console.log("Record video");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy the weekend");
+    break;
+  default:
+    console.log("Not a valid day!");
+}
