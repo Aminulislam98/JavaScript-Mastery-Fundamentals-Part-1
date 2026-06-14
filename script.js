@@ -152,25 +152,29 @@ const hasGoodVision = true;
 // }
 
 // the switch statement
-const day = "thursday";
-switch (day) {
-  case "monday":
-    console.log("plan course structure !");
-    break;
-  case "tuesday":
-    console.log("Prepare theory videos");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("Write code example!");
-    break;
-  case "friday":
-    console.log("Record video");
-    break;
-  case "saturday":
-  case "sunday":
-    console.log("Enjoy the weekend");
-    break;
-  default:
-    console.log("Not a valid day!");
-}
+// const day = "thursday";
+// switch (day) {
+//   case "monday":
+//     console.log("plan course structure !");
+//     break;
+//   case "tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Write code example!");
+//     break;
+//   case "friday":
+//     console.log("Record video");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Enjoy the weekend");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+// expression and statement
+// a value is expression like : 'aminul',  12, 3 + 4
+// statement is a code of line that perform action like if(2 > 4 ){ console.log('Right')}
