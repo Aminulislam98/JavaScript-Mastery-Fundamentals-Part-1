@@ -185,3 +185,10 @@ const drink =
 // console.log(drink);
 // console.log(`I like to drink ${age2 >= 18 ? "Wine 🍷" : "Water 💧"}`);
 // I should use ternary operator when I need quick decision other wise if else statement is better for large condition
+
+// exercise
+// const bill = 300;
+// let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : 0.2;
+// console.log(
+//   `The bill was £${bill}, the tip was £${tip}, and the total bill £${bill + tip}.`,
+// );
